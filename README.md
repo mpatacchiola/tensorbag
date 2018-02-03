@@ -1,5 +1,7 @@
-Tensorbag
----------
+
+<p align="center">
+<img src="./etc/img/logo.png" width="700">
+</p>
 
 This repository contains tensorflow tutorial on different Deep Learning and Machine Learning algorithms. The tutorials are organised as jupyter notebooks.
 
