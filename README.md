@@ -1,9 +1,9 @@
 
 <p align="center">
-<img src="./etc/img/logo.png" width="700">
+<img src="./etc/img/logo.png" width="800">
 </p>
 
-This repository contains tensorflow tutorial on different Deep Learning and Machine Learning algorithms. The tutorials are organised as jupyter notebooks.
+**Tensorbag** is a collection of tensorflow tutorial on different Deep Learning and Machine Learning algorithms. The tutorials are organised as jupyter notebooks.
 
 1. **MNIST**: it is a famous dataset of handwritten digits that is commonly used in Deep Learning. The tutorial shows how to download and prepare it for training. [[notebook]](./mnist/mnist.ipynb)
 
