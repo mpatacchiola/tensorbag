@@ -9,4 +9,6 @@
 
 2. **CIFAR-10**: it is a dataset of 50k 32x32 color training images, labeled over 10 categories, and 10k test images. The tutorial shows where to download and how to prepare the CIFAR-10 dataset. The pre-processing is done in different ways using Numpy, Tensorflow datasets, and TFRecords. [[notebook]](./cifar10/cifar10.ipynb)
 
-3. **Generative Adversarial Network (GAN)**: implementation of a standard GAN as in the [original paper](https://arxiv.org/pdf/1406.2661.pdf) of Goodfellow et al. (2014). The GAN is trained and tested on the CIFAR-10 dataset. [[notebook]](./generative_adversarial_networks/generative_adversarial_networks.ipynb)
+3. **LeNet-5 Convolutional Neural Network**: implementation of a standard LeNet-5 CNN as described in the [paper](http://www.dengfanxin.cn/wp-content/uploads/2016/03/1998Lecun.pdf) of LeCun and Bengio (1998). LeNet-5 was designed for handwritten and machine-printed character recognition. In this tutorial the network is trained and tested on the MNIST dataset. [[notebook]](./lenet5/lenet5.ipynb)
+
+4. **Generative Adversarial Network (GAN)**: implementation of a standard GAN as in the [original paper](https://arxiv.org/pdf/1406.2661.pdf) of Goodfellow et al. (2014). The GAN is trained and tested on the CIFAR-10 dataset. [[notebook]](./generative_adversarial_networks/generative_adversarial_networks.ipynb)
