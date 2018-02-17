@@ -8,6 +8,8 @@
 Datasets
 ---------
 
+- **XOR**: this dataset is based on the Exclusive OR logical operator. It is a non-linear dataset that can be used for simple tests. There are two input values represented as float, that can be generated in a pre-defined range. The label is a single integer representing True (one) or False (zero). The files are generated using the random uniform method in Tensorflow. The distribution is plotted in Matplotlib and the file are stored as TFRecords. [[notebook]](./xor/xor.ipynb)
+
 - **Iris Flowers**: it is a simple dataset of flowers classified using sepal and petal dimensions (four attributes). The data set contains three classes (Setosa, Versicolour, Virginica) of 50 instances each, where each class refers to a type of iris plant. One class (Setosa) is linearly separable from the other two (Versicolour and Virginica), whereas the latter are not linearly separable from each other. The pre-processing produces the training and test files in TFRecord format. The linear version of the dataset can be used to train simple models such as the Perceptron. Ready-to-use TFRecords are included in this repository. [[notebook]](./iris/iris.ipynb)
 
 - **MNIST**: it is a famous dataset of handwritten digits that is commonly used as benchmark in Deep Learning. It has 60k training images, and 10k test images. The tutorial shows how to download and prepare the dataset. The pre-processing produces the training and test files in TFRecord format. [[notebook]](./mnist/mnist.ipynb)
