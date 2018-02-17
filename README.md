@@ -21,7 +21,7 @@ Datasets
 Neural Network Architectures
 -----------------------------
 
-- **Multi Layer Perceptron (MLP)**: the MLP is an extension of the classical Perceptron. In its standard form it has an input layer, an hidden layer, and an output layer. In 1985 Rumelhart, Hinton and Williams experimentally verified that using an additional layer in the Perceptron and using a new update rule (backpropagation) the network was able to solve the XOR problem. In this tutorial a simple three layers MLP is designed. The model is trained on the XOR dataset (included in the repository). [[notebook]](./mlp/mlp.ipynb)
+- **Multi Layer Perceptron (MLP)**: the MLP is an extension of the classical Perceptron. In its standard form it has an input layer, an hidden layer, and an output layer. In 1985 Rumelhart, Hinton and Williams experimentally verified that using an additional layer in the Perceptron and using a new update rule (backpropagation) the network was able to solve the XOR problem. In this tutorial a simple three layers MLP is designed. The model is trained on the XOR dataset (included in the repository). [[notebook]](./mlp/mlp.ipynb) [[quiz]](./mlp/mlp_quiz.ipynb)
 
 - **LeNet-5 Convolutional Neural Network**: implementation of a standard LeNet-5 CNN as described in the [paper](http://www.dengfanxin.cn/wp-content/uploads/2016/03/1998Lecun.pdf) of LeCun et al. (1998). LeNet-5 was designed for handwritten and machine-printed character recognition. In this tutorial the network is trained and tested on the MNIST dataset. [[notebook]](./lenet5/lenet5.ipynb)
 
