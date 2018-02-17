@@ -8,7 +8,7 @@
 Datasets
 ---------
 
-- **XOR**: this dataset is based on the Exclusive OR logical operator. It is a non-linear dataset that can be used for simple tests. There are two input values represented as float, that can be generated in a pre-defined range. The label is a single integer representing True (one) or False (zero). The files are generated using the random uniform method in Tensorflow. The distribution is plotted in Matplotlib and the file are stored as TFRecords. [[notebook]](./xor/xor.ipynb)
+- **XOR**: this dataset is based on the Exclusive OR logical operator. It is a non-linear dataset that can be used for simple tests. There are two input values represented as float, that can be generated in a pre-defined range. The label is a single integer representing True (one) or False (zero). The files are generated using the random uniform method in Tensorflow. The distribution is plotted in Matplotlib and the file are stored as TFRecords. The test (2000 samples) and train (8000 samples) TFRecord files are provided with the repository. [[notebook]](./xor/xor.ipynb)
 
 - **Iris Flowers**: it is a simple dataset of flowers classified using sepal and petal dimensions (four attributes). The data set contains three classes (Setosa, Versicolour, Virginica) of 50 instances each, where each class refers to a type of iris plant. One class (Setosa) is linearly separable from the other two (Versicolour and Virginica), whereas the latter are not linearly separable from each other. The pre-processing produces the training and test files in TFRecord format. The linear version of the dataset can be used to train simple models such as the Perceptron. Ready-to-use TFRecords are included in this repository. [[notebook]](./iris/iris.ipynb)
 
@@ -20,6 +20,8 @@ Datasets
 
 Neural Network Architectures
 -----------------------------
+
+- **Multi Layer Perceptron (MLP)**: the MLP is an extension of the classical Perceptron. In its standard form it has an input layer, an hidden layer, and an output layer. In 1985 Rumelhart, Hinton and Williams experimentally verified that using an additional layer in the Perceptron and using a new update rule (backpropagation) the network was able to solve the XOR problem. In this tutorial a simple three layers MLP is designed. The model is trained on the XOR dataset (included in the repository). [[notebook]](./mlp/mlp.ipynb)
 
 - **LeNet-5 Convolutional Neural Network**: implementation of a standard LeNet-5 CNN as described in the [paper](http://www.dengfanxin.cn/wp-content/uploads/2016/03/1998Lecun.pdf) of LeCun et al. (1998). LeNet-5 was designed for handwritten and machine-printed character recognition. In this tutorial the network is trained and tested on the MNIST dataset. [[notebook]](./lenet5/lenet5.ipynb)
 
