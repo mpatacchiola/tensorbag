@@ -16,7 +16,7 @@ Datasets
 
 - **CIFAR-10**: it is a dataset of 50k 32x32 color training images, labeled over 10 categories, and 10k test images. The tutorial shows where to download and how to prepare the CIFAR-10 dataset. The pre-processing is done in different ways (Numpy and Tensorflow datasets) and produces training and test files in TFRecord format. [[notebook]](./cifar10/cifar10.ipynb)
 
-
+- **CIFAR-100**: it is a dataset of 50k 32x32 color training images, labeled over 100 fine categories (or 20 super-categories), and 10k test images. The tutorial shows where to download and how to prepare the CIFAR-100 dataset. The pre-processing is done in different ways (Numpy and Tensorflow datasets) and produces training and test files in TFRecord format. [[notebook]](./cifar100/cifar100.ipynb)
 
 Neural Network Architectures
 -----------------------------
