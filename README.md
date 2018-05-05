@@ -28,3 +28,16 @@ Neural Network Architectures
 - **ResNet Convolutional Network**: description and implementation of a *ResNet-18* as described in the [article](https://arxiv.org/pdf/1512.03385.pdf) of He et al. (2015). ResNet is one of the most famous architectures nowadays, and has been used in ILSVRC and COCO 2015 competitions, winning the 1st places in classification, detection, localization, and segmentation. Here a ResNet-18 is trained and tested on the CIFAR-10 dataset. [[notebook]](./resnet/resnet.ipynb) [[quiz]](./resnet/resnet_quiz.ipynb)
 
 - **Generative Adversarial Network (GAN)**: implementation of a standard GAN as in the [original paper](https://arxiv.org/pdf/1406.2661.pdf) of Goodfellow et al. (2014). The GAN is trained and tested on the CIFAR-10 dataset. [TODO]
+
+
+Unsupervised learning
+------------------------
+
+- **k-means clustering**: method broadly used in cluster analysis. An efficient online version of the algorithm is presented here. The algorithm is tested on the Iris flower dataset. [[notebook]](./kmeans/kmeans.ipynb)
+
+
+
+
+
+
+
