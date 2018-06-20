@@ -14,6 +14,8 @@ Datasets
 
 - **MNIST**: it is a famous dataset of handwritten digits that is commonly used as benchmark in Deep Learning. It has 60k training images, and 10k test images. The tutorial shows how to download and prepare the dataset. The pre-processing produces the training and test files in TFRecord format. [[notebook]](./mnist/mnist.ipynb)
 
+- **SVHN**: the Street View House Number (SVHN) is a dataset similar to MNIST but more challenging since it involves recognizing digits and numbers in natural scene images. The tutorial shows how to download and prepare the dataset. [[notebook]](./svhn/svhn.ipynb)
+
 - **CIFAR-10**: it is a dataset of 50k 32x32 color training images, labeled over 10 categories, and 10k test images. The tutorial shows where to download and how to prepare the CIFAR-10 dataset. The pre-processing is done in different ways (Numpy and Tensorflow datasets) and produces training and test files in TFRecord format. [[notebook]](./cifar10/cifar10.ipynb)
 
 - **CIFAR-100**: it is a dataset of 50k 32x32 color training images, labeled over 100 fine categories (or 20 super-categories), and 10k test images. The tutorial shows where to download and how to prepare the CIFAR-100 dataset. The pre-processing is done in different ways (Numpy and Tensorflow datasets) and produces training and test files in TFRecord format. [[notebook]](./cifar100/cifar100.ipynb)
