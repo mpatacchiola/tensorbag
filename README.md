@@ -29,6 +29,7 @@ Neural Network Architectures
 
 - **Generative Adversarial Network (GAN)**: implementation of a standard GAN as in the [original paper](https://arxiv.org/pdf/1406.2661.pdf) of Goodfellow et al. (2014). The GAN is trained and tested on the CIFAR-10 dataset. [TODO]
 
+- **Autoencoder (dense connection)**: implementation of a multi-layer autoencoder with dense connection and three hidden layers. The MNIST dataset is automatically downloaded and used via Tensorflow call. A class is provided for generating the network with different parameters and for saving and restoring the model. A local log file allows the use to visualize the reconstructed images, the loss, and the code activation. [[code]](./dae/autoencoder.py)
 
 Unsupervised learning
 ------------------------
