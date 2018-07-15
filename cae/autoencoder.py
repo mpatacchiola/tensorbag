@@ -26,10 +26,8 @@ class Autoencoder:
     def __init__(self, sess, conv_filters_large, conv_filters_medium, code_size, dir_header="./"):
         '''Init method
         @param sess (tf.Session) the current session
-        @param input_shape (list) the shape of the input layer
-        @param hidden_size_* (int) the number of units in the hidden layers
+        @param conv_filters_* (int) the number of filters in the convolutional layers
         @param code_size (int) the number of units in the code layer
-        @param output_size (int) tipically same as input_shape
         @param gradient_clip (bool) applies gradient clipping on the gradient vector
         '''
         self.dir_header = dir_header
