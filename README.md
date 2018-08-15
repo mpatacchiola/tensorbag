@@ -20,7 +20,10 @@ Datasets
 
 - **CIFAR-100**: it is a dataset of 50k 32x32 color training images, labeled over 100 fine categories (or 20 super-categories), and 10k test images. The tutorial shows where to download and how to prepare the CIFAR-100 dataset. The pre-processing is done in different ways (Numpy and Tensorflow datasets) and produces training and test files in TFRecord format. [[notebook]](./cifar100/cifar100.ipynb)
 
-- **Pix2Pix**: collection of multiple datasets of size 256x256 pixels, from two symmetric domanins (e.g. satellite images VS maps, shoes pictures VS shoes edges). The tutorial shows how to download and preprocess the dataset. [[notebook]](./pix2pix/pix2pix.ipynb)
+- **Pix2Pix**: collection of five datasets (cityscapes, edges2handbags, edges2shoes, facades, maps) with images of size 256x256 pixels, from two symmetric domanins (e.g. satellite images VS maps). The tutorial shows how to download and preprocess the dataset. [[notebook]](./pix2pix/pix2pix.ipynb)
+
+
+
 
 Neural Network Architectures
 -----------------------------
